@@ -2,8 +2,11 @@
 
 int main(void){
 	char str[]="Hello world";
-	printf("Hello world");
-	printf("%s\n", str);
-	return 0;
+	int length = strlen(str);
+
+	printf("str=%s\n",str);
+	printf("len=%d\n",length);
+return 0;
 }
+
 
